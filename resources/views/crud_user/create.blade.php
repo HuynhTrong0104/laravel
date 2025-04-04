@@ -15,6 +15,16 @@
                                     <input type="text" id="name" class="form-control" name="name" required autofocus>
                                     <div class="invalid-feedback">Name is required.</div>
                                 </div>
+                                <div class="form-group mb-3">
+                                    <label for="age" class="form-label">age</label>
+                                    <input type="text" id="age" class="form-control" name="age" required autofocus>
+                                    <div class="invalid-feedback">age is required.</div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="github" class="form-label">github</label>
+                                    <input type="text" id="github" class="form-control" name="github" required autofocus>
+                                    <div class="invalid-feedback">github is required.</div>
+                                </div>
 
                                 <div class="form-group mb-3">
                                     <label for="email" class="form-label">Email</label>
