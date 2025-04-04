@@ -118,6 +118,7 @@ class CrudUserController extends Controller
        $user = User::find($input['id']);
        $user->name = $input['name'];
        $user->email = $input['email'];
+       
        $user->password = $input['password'];
        $user->save();
 
@@ -135,7 +136,7 @@ class CrudUserController extends Controller
         }
 
         return redirect("login")->withSuccess('You are not allowed to access');
-    }
+    } 
 
     /**
      * Sign out
