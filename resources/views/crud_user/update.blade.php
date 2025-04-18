@@ -19,20 +19,6 @@
                                     @endif
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input type="text" placeholder="age" id="age" class="form-control" name="age"
-                                           value="{{ $user->age }}" required autofocus>
-                                    @if ($errors->has('age'))
-                                        <span class="text-danger">{{ $errors->first('age') }}</span>
-                                    @endif
-                                </div>
-                                <div class="form-group mb-3">
-                                    <input type="text" placeholder="github" id="github" class="form-control" name="github"
-                                           value="{{ $user->github }}" required autofocus>
-                                    @if ($errors->has('github'))
-                                        <span class="text-danger">{{ $errors->first('github') }}</span>
-                                    @endif
-                                </div>
-                                <div class="form-group mb-3">
                                     <input type="text" placeholder="Email" id="email_address" class="form-control"
                                            value="{{ $user->email }}" name="email" required autofocus>
                                     @if ($errors->has('email'))
